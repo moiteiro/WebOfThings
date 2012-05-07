@@ -1,0 +1,143 @@
+
+body {
+background-color: #e1ddd9;
+font-size: 11px;
+font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+color:#564b47;
+padding:0px;
+margin:0px;
+}
+a {color: #DB7093;}
+a:visited {color:#DB7093;}
+a:hover {color: #564b47;}
+a:active { color:#000000;}
+
+h1 {
+font-size: 11px;
+text-transform:uppercase;
+background-color: #E0A3B7;
+border-top:1px solid #564b47;
+border-bottom:1px solid #564b47;
+padding:5px 15px;
+margin:0px }
+
+h2 {
+font-size:20px;
+font-weight: normal;
+padding: 5px 10px;
+margin:0px;}
+
+img.download {vertical-align:middle;}
+
+/* ----------container to center the layout-------------- */
+#container {
+width: 800px;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+background-color: #EBD3E0;
+}
+
+/* ----------banner for logo-------------- */
+#banner {
+background-color: #e1ddd9;
+text-align: right;
+padding: 0px;
+margin: 0px;
+}
+#banner img {padding:10px 0px;} 
+
+/* -----------------content--------------------- */
+#content {
+background-color: #F2F2F2;
+padding: 0px;
+
+margin-right: 0px;
+}
+div#content { 
+min-height:600px;
+height:expression(this.scrollHeight > 600 ? "auto":"600px"); 
+}
+
+p, pre{
+padding: 5px 10px;
+margin:0px;
+}
+
+/* --------------left navi------------- */
+#left {
+float: left;
+width: 200px;
+margin: 0px;
+padding: 0px;
+}
+
+/* -----------footer--------------------------- */
+#footer {
+clear: both;
+margin: 0px;
+padding: 0px;
+text-align: right; }
+
+/* -----------Menu--------------------------- */
+#menu ul {
+			padding:0px;
+			margin:0px;
+			float: left;
+			width: 100%;
+			background-color:#B5B5B5;
+			list-style:none;
+			font: Tahoma;
+		}
+
+		#menu ul li { display: inline; }
+
+		#menu ul li a {
+			background-color:#B5B5B5;
+			color: #333;
+			text-decoration: none;
+			border-bottom:3px solid #B5B5B5;
+			padding: 2px 10px;
+			float:left;
+		}
+
+		#menu ul li a:hover {
+			background-color:#D6D6D6;
+			color: #6D6D6D;
+			border-bottom:3px solid #EA0000;
+		}
+
+
+/* -----------TABLE--------------------------- */		
+		
+table{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 45px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+	border: 1px solid #69c;
+}
+th
+{
+	padding: 15px 10px 10px 10px;
+	font-weight: normal;
+	font-size: 14px;
+	color: #039;
+}
+ tbody
+{
+	background: #e8edff;
+}
+td
+{
+	padding: 10px;
+	color: #669;
+	border-top: 1px dashed #fff;
+}
+ tbody tr:hover td
+{
+	color: #339;
+	background: #d0dafd;
+}
